@@ -1,5 +1,3 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 * {
@@ -7,7 +5,7 @@
 }
 
 body {
-  background-color: #efedd6;
+  background-color: #d5d3f1;
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
@@ -35,13 +33,13 @@ h1 {
     transform: translateX(400%);
     transition: transform 0.4s ease;
 }
-
+  
 .box:nth-of-type(even) {
     transform: translateX(-400%);
 }
 
 .box.show {
-    transform: translateX(-400%);
+    transform: translateX(0%);
 }
 
 .box h2 {
